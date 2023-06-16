@@ -59,7 +59,7 @@ RTX2080ti    -htsz 29 -w 30.5  -t 256 -b 272 -p 220
 RTX3070      -htsz 28 -w 30.25 -t 256 -b 138 -p 244
 RTX3090      -htsz 30 -w 31.51 -t 512 -b 328 -p 280 Note: requre a lot of host RAM for generating files
 Example:
-FractionBSGS1_9_7F.exe -dbit 6 -htsz 28 -w 29.87 -t 256 -b 88 -p 130 -pk 8000000000000000 -pke ffffffffffffffff -pb 03100611c54dfef604163b8358f7b7fac13ce478e02cb224ae16d45526b25d9d4d
+fractionbsgs.exe -dbit 6 -htsz 28 -w 29.87 -t 256 -b 88 -p 130 -pk 8000000000000000 -pke ffffffffffffffff -pb 03100611c54dfef604163b8358f7b7fac13ce478e02cb224ae16d45526b25d9d4d
 ```
 HashTable files are compatible with bsgs-cuda  
 Purebasic v.5.31 required for compilation  
